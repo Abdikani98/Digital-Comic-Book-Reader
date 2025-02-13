@@ -1,0 +1,84 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f2f3f5c4;
+    color: #fff;
+    text-align: center;
+    transition: background 0.3s ease;
+}
+.reader-container {
+    max-width: 900px;
+    margin: 40px auto;
+   
+    padding: 20px;
+    padding-top: 70px;
+    background:  #e85c50;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    position: relative;
+}
+.toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.toolbar button, .toolbar input {
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    background: #68db03;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-top: 25px;
+    transition: background 0.3s ease;
+}
+.toolbar button:hover {
+    background: #18e006;
+}
+.comic-viewer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.comic-viewer img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+}
+.dark-mode {
+    background-color: #121212;
+    color: #ccc;
+}
+.bookmark-list {
+    margin-top: 50px;
+    text-align: left;
+    background: #0c0b0b;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+.bookmark-list h3 {
+    margin-bottom: 10px;
+}
+.bookmark-list ul {
+    list-style: none;
+    padding: 0;
+}
+.bookmark-list li {
+    background: #03a408;
+    color: white;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+.bookmark-list li:hover {
+    background: #4eb902;
+}
